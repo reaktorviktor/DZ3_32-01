@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9c/Black_hole_representation.gif");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.users-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.user-card {
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(34, 34, 34, 0.72);
+    width: 200px;
+}
+
+.user-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.user-card p {
+    color: white;
+}
+
+.user-card img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app h1 {
+    margin-bottom: 25px;
+}
